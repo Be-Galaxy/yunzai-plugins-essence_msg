@@ -13,11 +13,11 @@ const cfg = {
   database: {
     type: 'mysql',  // mysql 或 sqlite
     mysql: {
-      host: '1Panel-mysql-Wwag',
+      host: '',
       port: 3306,
-      user: 'msg-qq',
-      password: process.env.DB_PASSWORD || '6NCpQ3sk6KCijx3S',
-      database: 'msg-qq'
+      user: '',
+      password: process.env.DB_PASSWORD || '',
+      database: ''
     },
     sqlite: {
       path: path.join(process.cwd(), './data/essence.db') //使用Mysql则此配置无效
