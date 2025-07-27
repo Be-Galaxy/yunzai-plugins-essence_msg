@@ -80,3 +80,6 @@ CREATE TABLE `essence_messages` (
 建议去用Mysql
 
 ****咕咕咕****
+---
+> [!CAUTION]
+> **禁止** 在生产环境中使用该插件.
